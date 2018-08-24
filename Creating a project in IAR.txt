@@ -1,0 +1,89 @@
+Project -> Create New Project -> C main
+	Cria pasta: Project_Name -> EWARM
+
+*na pasta criada criar novas pastas:
+- user
+- std_periph
+- manual_config
+- CMSIS
+
+
+--Para CMSIS copiar:
+	startup_stm32f10x_cl.s
+	system_stm32f10x_cl.c
+	system_stm32f10x_cl.h
+	core_cm3.c
+	core_cm3.h (renomear arquivo acrescentando .old)
+
+--Para std_periph copiar:
+	misc.h
+	misc.c
+	stm32f10x_gpio.h
+	stm32f10x_gpio.c
+	stm32f10x_rcc.h
+	stm32f10x_rcc.c
+
+--Para manual_config copiar:
+	stm32f10x_conf.h
+	stm32f10x.h
+
+--Para EWARM/settings copiar:
+	stm32f10x_flash.icf
+
+
+Botão direito no projeto IAR -> opções
+	- general options (target) -> device (escolhe o correto)
+	- library configuration: library (full)
+	- C/C++ compiler: C++ inline semantics (marcar)
+	- preprocessor: additional include directories
+		$PROJ_DIR$
+		$PROJ_DIR$/Debug
+		$PROJ_DIR$/settings
+		$PROJ_DIR$/../
+		$PROJ_DIR$/../CMSIS
+		$PROJ_DIR$/../manual_config
+		$PROJ_DIR$/../std_periph
+		$PROJ_DIR$/../user
+
+	- define symbols: no arquivo stm32f10x.h -> (linha 8296) #ifdef USE_STDPERIPH_DRIVER (coloco no define symbols
+	- editar o arquivo: coloco no define e  tiro comentário
+		STM32F10X_MD_VL (varia de micro pra micro)
+
+	- output converter: 	generate additional output
+				binary
+				override default
+
+	- linker: override default
+		$PROJ_DIR$/settings/
+
+	- debugger: ST-LINK
+		download: 	verify download
+				use flash loader
+
+	- ST-LINK: interface -> SWD
+		reset: normal
+
+
+No arquivo stm32f10x_conf.h
+	editar e deixar sem comentários apenas bibliotecas que usar:
+		#include "stm32f10x_gpio.h"
+		#include "stm32f10x_rcc.h"
+		#include "misc.h"
+
+
+Botão direito no proojeto -> add group
+	CMSIS -> botão direito -> add files (todas)
+	std_periph -> ''
+	user -> ''
+
+
+No main colocar include "stm32f10x.h"
+	rebuild all -> 0 erros / x warnings
+
+Renomear startup_stm32f10x_cl.s
+	linha 143
+		..REORDER:NOROOT(...
+			coloca em todos
+
+
+Em EWARM/settings adicionar o arquivo stm32f103x8.icf
