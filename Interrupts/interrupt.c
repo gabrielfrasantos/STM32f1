@@ -3,9 +3,9 @@
 #include "stm32f10x_gpio.h"
 #include "stm32f10x_rcc.h"
 
-NVIC_PriorityGroupConfig(NVIC_PriorityGroup_0);
-
-main{
+void main(void){
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_0);
+	
 // Configure clocks for GPIOA and TIM2
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
