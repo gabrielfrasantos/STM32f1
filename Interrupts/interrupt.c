@@ -17,7 +17,11 @@ main{
 	NVIC_Init(&NVIC_InitStructure);
 
 // Configure Timer
-
+	TIM_TimeBaseStructInit(&TIM_TimeBaseStructure);
+	TIM_TimeBaseStructure.TIM_Prescaler = SystemCoreClock/100000 - 1; // 0..239
+	TIM_TimeBaseStructure.TIM_Period = 1000 - 1; // 0..999
+	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;
+	TIM_TimeBaseInit(TIM2, &TIM_TimeBaseStructure);
 
 // Enable Timer Interrupt , enable timer
 	TIM_ITConfig(TIM2, TIM_IT_Update , ENABLE);
@@ -30,4 +34,4 @@ void TIM2_IRQHandler(void)
 {
 	/* do something */
 	TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
-}
+}
