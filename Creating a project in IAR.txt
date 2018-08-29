@@ -29,6 +29,7 @@ Project -> Create New Project -> C main
 
 --Para EWARM/settings copiar:
 	stm32f10x_flash.icf
+	stm32f103x8.icf
 
 
 Botão direito no projeto IAR -> opções
@@ -45,7 +46,7 @@ Botão direito no projeto IAR -> opções
 		$PROJ_DIR$/../std_periph
 		$PROJ_DIR$/../user
 
-	- define symbols: no arquivo stm32f10x.h -> (linha 8296) #ifdef USE_STDPERIPH_DRIVER (coloco no define symbols
+	- define symbols: no arquivo stm32f10x.h -> (linha 8296) #ifdef 		USE_STDPERIPH_DRIVER (coloco no define symbols)
 	- editar o arquivo: coloco no define e  tiro comentário
 		STM32F10X_MD_VL (varia de micro pra micro)
 
@@ -54,7 +55,7 @@ Botão direito no projeto IAR -> opções
 				override default
 
 	- linker: override default
-		$PROJ_DIR$/settings/
+		$PROJ_DIR$/settings/stm32f103x8.icf
 
 	- debugger: ST-LINK
 		download: 	verify download
@@ -71,7 +72,7 @@ No arquivo stm32f10x_conf.h
 		#include "misc.h"
 
 
-Botão direito no proojeto -> add group
+Botão direito no projeto -> add group
 	CMSIS -> botão direito -> add files (todas)
 	std_periph -> ''
 	user -> ''
