@@ -83,6 +83,9 @@ int main(void)
 
   /* Compute the prescaler value */
   PrescalerValue = (uint16_t) (SystemCoreClock / 12000000) - 1;
+ 
+ /* Compute the prescaler value to T=0,5s and SystemCoreClock=64MHz
+  PrescalerValue = (uint16_t) (SystemCoreClock / 32000000); ??? */
 
   /* Time base configuration */
   TIM_TimeBaseStructure.TIM_Period = 65535;
