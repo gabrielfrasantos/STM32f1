@@ -198,7 +198,7 @@
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 1 44 0 6 52 47 20 7 4 5 48 21 3 2</file>
+                    <file> 20 44 7 4 5 47 1 0 6 52 48 21 3 2</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>

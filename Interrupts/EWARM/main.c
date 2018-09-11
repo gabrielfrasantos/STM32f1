@@ -36,8 +36,8 @@ void main(void){
         TIM_TimeBaseInitTypeDef TIMER_InitStructure;
         
 	TIM_TimeBaseStructInit(&TIMER_InitStructure);
-	TIMER_InitStructure.TIM_Prescaler = SystemCoreClock/100000 - 1; // 0..239
-	TIMER_InitStructure.TIM_Period = 1000 - 1; // 0..999
+	TIMER_InitStructure.TIM_Prescaler = 65535; 
+	TIMER_InitStructure.TIM_Period = 65535; 
 	TIMER_InitStructure.TIM_CounterMode = TIM_CounterMode_Up;
 	TIM_TimeBaseInit(TIM2, &TIMER_InitStructure);
 
@@ -45,13 +45,18 @@ void main(void){
 	TIM_ITConfig(TIM2, TIM_IT_Update , ENABLE);
 	TIM_Cmd(TIM2, ENABLE);
 
-	while(1) { /* do nothing */ }
+	while(1) { 
+            //GPIO_SetBits(GPIOC, GPIO_Pin_13); // Set C13 to High level ("1")
+            //GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set C13 to Low level ("0")
+        }
 }
 
 void TIM2_IRQHandler(void)
 {
 	/* do something */
         GPIOC->ODR ^= GPIO_Pin_13;
-  
+        for (int i=0; i<1000000; i++){
+        }
+        GPIOC->ODR ^= GPIO_Pin_13;  
 	TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
 }
