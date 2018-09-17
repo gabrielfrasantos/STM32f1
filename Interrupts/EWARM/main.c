@@ -47,7 +47,7 @@ void main(void){
 
 	while(1) { 
             //GPIO_SetBits(GPIOC, GPIO_Pin_13); // Set C13 to High level ("1")
-            //GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set C13 to Low level ("0")
+            GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set C13 to Low level ("0")
         }
 }
 
@@ -57,6 +57,21 @@ void TIM2_IRQHandler(void)
         GPIOC->ODR ^= GPIO_Pin_13;
         for (int i=0; i<1000000; i++){
         }
-        GPIOC->ODR ^= GPIO_Pin_13;  
+        GPIOC->ODR ^= GPIO_Pin_13; 
+        for (int i=0; i<1000000; i++){
+        }
+        GPIOC->ODR ^= GPIO_Pin_13;
+        for (int i=0; i<1000000; i++){
+        }
+        GPIOC->ODR ^= GPIO_Pin_13;
+        for (int i=0; i<1000000; i++){
+        }
+        GPIOC->ODR ^= GPIO_Pin_13;
+        for (int i=0; i<1000000; i++){
+        }
+        GPIOC->ODR ^= GPIO_Pin_13;
+        for (int i=0; i<1000000; i++){
+        }
+        GPIOC->ODR ^= GPIO_Pin_13;
 	TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
 }
