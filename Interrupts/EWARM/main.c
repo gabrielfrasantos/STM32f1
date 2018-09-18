@@ -37,10 +37,14 @@ void main(void){
         
 	TIM_TimeBaseStructInit(&TIMER_InitStructure);
 	TIMER_InitStructure.TIM_Prescaler = 65535; 
-	TIMER_InitStructure.TIM_Period = 65535; 
+	TIMER_InitStructure.TIM_Period = 65535; /* SystemCoreClock */
 	TIMER_InitStructure.TIM_CounterMode = TIM_CounterMode_Up;
 	TIM_TimeBaseInit(TIM2, &TIMER_InitStructure);
+	
+	/*TIM_SelectOnePulseMode(xxx, TIM_OPMode_Repetitive); */
 
+	/*TIM_ClearITPendingBit(TIM2,TIM_IT_Update);*/
+	
 // Enable Timer Interrupt , enable timer
 	TIM_ITConfig(TIM2, TIM_IT_Update , ENABLE);
 	TIM_Cmd(TIM2, ENABLE);
