@@ -33,8 +33,21 @@ void main(void){
 	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
+	
+	//TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
 
 // Configure Timer
+	
+	/* 
+	Supondo clock de 48MHz:
+	
+		48000000 / 65535 = 732,433 Hz
+	
+		732,433 / 65535 = 0,0111 Hz
+	
+	Ou seja: 1 / 0,0111 = 89,4757 segundos
+	*/
+	
         TIM_TimeBaseInitTypeDef TIMER_InitStructure;
         
 	TIM_TimeBaseStructInit(&TIMER_InitStructure);
@@ -42,6 +55,8 @@ void main(void){
 	TIMER_InitStructure.TIM_Period = 732; 
 	TIMER_InitStructure.TIM_CounterMode = TIM_CounterMode_Up;
 	TIM_TimeBaseInit(TIM2, &TIMER_InitStructure);
+	
+	//TIM_SelectOnePulseMode(TIM2, TIM_OPMode_Repetitive); 
 
 // Enable Timer Interrupt , enable timer
 	TIM_ITConfig(TIM2, TIM_IT_Update , ENABLE);
