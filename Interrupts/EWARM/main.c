@@ -22,6 +22,8 @@ void main(void){
         GPIO_Init(GPIOC, &GPIO_InitStructure);
         
         GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set C13 to Low level ("0")
+        
+        TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
 
 // Configure NVIC -- see preceding section
 	NVIC_InitTypeDef NVIC_InitStructure;
@@ -37,7 +39,7 @@ void main(void){
         
 	TIM_TimeBaseStructInit(&TIMER_InitStructure);
 	TIMER_InitStructure.TIM_Prescaler = 65535; 
-	TIMER_InitStructure.TIM_Period = 65535; 
+	TIMER_InitStructure.TIM_Period = 732; 
 	TIMER_InitStructure.TIM_CounterMode = TIM_CounterMode_Up;
 	TIM_TimeBaseInit(TIM2, &TIMER_InitStructure);
 

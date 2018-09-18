@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.30.1.114/W32 for ARM                  17/Sep/2018  19:41:55
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  18/Sep/2018  19:23:29
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Interrupts\EWARM\Debug\List\Interrupt.map
 #    Command line =  
-#        -f C:\Users\ALEXAN~1\AppData\Local\Temp\EWBC21.tmp
+#        -f C:\Users\ALEXAN~1\AppData\Local\Temp\EW3835.tmp
 #        (C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Interrupts\EWARM\Debug\Obj\core_cm3.o
 #        C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Interrupts\EWARM\Debug\Obj\main.o
 #        C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Interrupts\EWARM\Debug\Obj\misc.o
@@ -68,24 +68,20 @@ No sections matched the following patterns:
   .intvec   ro code   0x800'0000  0x150  startup_stm32f10x_cl.o [1]
                     - 0x800'0150  0x150
 
-"P1":                             0x650
-  .text     ro code   0x800'0150  0x140  main.o [1]
-  .text     ro code   0x800'0290   0x80  misc.o [1]
-  .text     ro code   0x800'0310   0x40  stm32f10x_rcc.o [1]
-  .text     ro code   0x800'0350   0xc6  stm32f10x_gpio.o [1]
-  .text     ro code   0x800'0418  0x110  stm32f10x_tim.o [1]
-  .text     ro code   0x800'0528  0x100  system_stm32f10x.o [1]
-  .text     ro code   0x800'0628   0x1e  cmain.o [3]
-  .text     ro code   0x800'0646    0x4  low_level_init.o [2]
-  .text     ro code   0x800'064a    0x4  exit.o [2]
-  .text     ro code   0x800'0650    0xa  cexit.o [3]
-  .text     ro code   0x800'065c   0x14  exit.o [4]
-  .text     ro code   0x800'0670   0x10  startup_stm32f10x_cl.o [1]
-  .text     ro code   0x800'0680    0xc  cstartup_M.o [3]
-  .text     ro code   0x800'068c    0x4  startup_stm32f10x_cl.o [1]
-  .text     ro code   0x800'0690    0x4  startup_stm32f10x_cl.o [1]
-  .text     ro code   0x800'0694    0x4  startup_stm32f10x_cl.o [1]
-  .text     ro code   0x800'0698    0x4  startup_stm32f10x_cl.o [1]
+"P1":                             0x660
+  .text     ro code   0x800'0150  0x150  main.o [1]
+  .text     ro code   0x800'02a0   0x80  misc.o [1]
+  .text     ro code   0x800'0320   0x40  stm32f10x_rcc.o [1]
+  .text     ro code   0x800'0360   0xc6  stm32f10x_gpio.o [1]
+  .text     ro code   0x800'0428  0x110  stm32f10x_tim.o [1]
+  .text     ro code   0x800'0538  0x100  system_stm32f10x.o [1]
+  .text     ro code   0x800'0638   0x1e  cmain.o [3]
+  .text     ro code   0x800'0656    0x4  low_level_init.o [2]
+  .text     ro code   0x800'065a    0x4  exit.o [2]
+  .text     ro code   0x800'0660    0xa  cexit.o [3]
+  .text     ro code   0x800'066c   0x14  exit.o [4]
+  .text     ro code   0x800'0680   0x10  startup_stm32f10x_cl.o [1]
+  .text     ro code   0x800'0690    0xc  cstartup_M.o [3]
   .text     ro code   0x800'069c    0x4  startup_stm32f10x_cl.o [1]
   .text     ro code   0x800'06a0    0x4  startup_stm32f10x_cl.o [1]
   .text     ro code   0x800'06a4    0x4  startup_stm32f10x_cl.o [1]
@@ -151,7 +147,11 @@ No sections matched the following patterns:
   .text     ro code   0x800'0794    0x4  startup_stm32f10x_cl.o [1]
   .text     ro code   0x800'0798    0x4  startup_stm32f10x_cl.o [1]
   .text     ro code   0x800'079c    0x4  startup_stm32f10x_cl.o [1]
-                    - 0x800'07a0  0x650
+  .text     ro code   0x800'07a0    0x4  startup_stm32f10x_cl.o [1]
+  .text     ro code   0x800'07a4    0x4  startup_stm32f10x_cl.o [1]
+  .text     ro code   0x800'07a8    0x4  startup_stm32f10x_cl.o [1]
+  .text     ro code   0x800'07ac    0x4  startup_stm32f10x_cl.o [1]
+                    - 0x800'07b0  0x660
 
 "P2":                             0x800
   CSTACK             0x2000'0000  0x800  <Block>
@@ -162,7 +162,7 @@ Unused ranges:
 
          From           To    Size
          ----           --    ----
-   0x800'07a0   0x800'ffff  0xf860
+   0x800'07b0   0x800'ffff  0xf850
   0x2000'0800  0x2000'4fff  0x4800
 
 
@@ -178,7 +178,7 @@ command line/config:
     Total:
 
 C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Interrupts\EWARM\Debug\Obj: [1]
-    main.o                      320
+    main.o                      336
     misc.o                      128
     startup_stm32f10x_cl.o      628
     stm32f10x_gpio.o            198
@@ -186,7 +186,7 @@ C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Interrupts\EWARM\Debug\Obj: [1
     stm32f10x_tim.o             272
     system_stm32f10x.o          256
     ----------------------------------------
-    Total:                    1 866
+    Total:                    1 882
 
 dl7M_tln.a: [2]
     exit.o                        4
@@ -209,7 +209,7 @@ shb_l.a: [4]
     Gaps                          6
     Linker created                     2 048
 --------------------------------------------
-    Grand Total:              1 952    2 048
+    Grand Total:              1 968    2 048
 
 
 *******************************************************************************
@@ -218,37 +218,37 @@ shb_l.a: [4]
 
 Entry                       Address  Size  Type      Object
 -----                       -------  ----  ----      ------
-?main                    0x800'0629        Code  Gb  cmain.o [3]
+?main                    0x800'0639        Code  Gb  cmain.o [3]
 CSTACK$$Base            0x2000'0000         --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'0800         --   Gb  - Linker created -
-GPIO_Init                0x800'0351  0xc0  Code  Gb  stm32f10x_gpio.o [1]
-GPIO_ResetBits           0x800'0411   0x6  Code  Gb  stm32f10x_gpio.o [1]
-NVIC_Init                0x800'029b  0x60  Code  Gb  misc.o [1]
+GPIO_Init                0x800'0361  0xc0  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits           0x800'0421   0x6  Code  Gb  stm32f10x_gpio.o [1]
+NVIC_Init                0x800'02ab  0x60  Code  Gb  misc.o [1]
 NVIC_PriorityGroupConfig
-                         0x800'0291   0xa  Code  Gb  misc.o [1]
-RCC_APB1PeriphClockCmd   0x800'032d  0x1c  Code  Gb  stm32f10x_rcc.o [1]
-RCC_APB2PeriphClockCmd   0x800'0311  0x1c  Code  Gb  stm32f10x_rcc.o [1]
+                         0x800'02a1   0xa  Code  Gb  misc.o [1]
+RCC_APB1PeriphClockCmd   0x800'033d  0x1c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd   0x800'0321  0x1c  Code  Gb  stm32f10x_rcc.o [1]
 Region$$Table$$Base             0x0         --   Gb  - Linker created -
 Region$$Table$$Limit            0x0         --   Gb  - Linker created -
-SetSysClock              0x800'0573   0x8  Code  Lc  system_stm32f10x.o [1]
-SetSysClockTo24          0x800'057b  0x90  Code  Lc  system_stm32f10x.o [1]
-SystemInit               0x800'0529  0x4a  Code  Gb  system_stm32f10x.o [1]
-TIM2_IRQHandler          0x800'01ff  0x86  Code  Gb  main.o [1]
-TIM_ClearITPendingBit    0x800'04f7   0x8  Code  Gb  stm32f10x_tim.o [1]
-TIM_Cmd                  0x800'04c3  0x1c  Code  Gb  stm32f10x_tim.o [1]
-TIM_ITConfig             0x800'04df  0x18  Code  Gb  stm32f10x_tim.o [1]
-TIM_TimeBaseInit         0x800'0419  0x92  Code  Gb  stm32f10x_tim.o [1]
-TIM_TimeBaseStructInit   0x800'04ab  0x18  Code  Gb  stm32f10x_tim.o [1]
-__cmain                  0x800'0629        Code  Gb  cmain.o [3]
-__exit                   0x800'065d  0x14  Code  Gb  exit.o [4]
-__iar_program_start      0x800'0681        Code  Gb  cstartup_M.o [3]
-__low_level_init         0x800'0647   0x4  Code  Gb  low_level_init.o [2]
+SetSysClock              0x800'0583   0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo24          0x800'058b  0x90  Code  Lc  system_stm32f10x.o [1]
+SystemInit               0x800'0539  0x4a  Code  Gb  system_stm32f10x.o [1]
+TIM2_IRQHandler          0x800'020d  0x86  Code  Gb  main.o [1]
+TIM_ClearITPendingBit    0x800'0507   0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                  0x800'04d3  0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig             0x800'04ef  0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit         0x800'0429  0x92  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseStructInit   0x800'04bb  0x18  Code  Gb  stm32f10x_tim.o [1]
+__cmain                  0x800'0639        Code  Gb  cmain.o [3]
+__exit                   0x800'066d  0x14  Code  Gb  exit.o [4]
+__iar_program_start      0x800'0691        Code  Gb  cstartup_M.o [3]
+__low_level_init         0x800'0657   0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000        Data  Gb  startup_stm32f10x_cl.o [1]
-_call_main               0x800'0635        Code  Gb  cmain.o [3]
-_exit                    0x800'0651        Code  Gb  cexit.o [3]
-_main                    0x800'0643        Code  Gb  cmain.o [3]
-exit                     0x800'064b   0x4  Code  Gb  exit.o [2]
-main                     0x800'0151  0xae  Code  Gb  main.o [1]
+_call_main               0x800'0645        Code  Gb  cmain.o [3]
+_exit                    0x800'0661        Code  Gb  cexit.o [3]
+_main                    0x800'0653        Code  Gb  cmain.o [3]
+exit                     0x800'065b   0x4  Code  Gb  exit.o [2]
+main                     0x800'0151  0xbc  Code  Gb  main.o [1]
 
 
 [1] = C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Interrupts\EWARM\Debug\Obj
@@ -256,7 +256,7 @@ main                     0x800'0151  0xae  Code  Gb  main.o [1]
 [3] = rt7M_tl.a
 [4] = shb_l.a
 
-  1 952 bytes of readonly  code memory
+  1 968 bytes of readonly  code memory
   2 048 bytes of readwrite data memory
 
 Errors: none
