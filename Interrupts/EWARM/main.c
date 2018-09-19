@@ -38,13 +38,13 @@ void main(void){
 // Configure Timer
 	
 	/* 
-	Supondo clock de 48MHz:
+	Supondo clock de 36MHz:
 	
-		48000000 / 65535 = 732,433 Hz
+		36.000.000 / 65535 = 732,433 Hz
 	
-		732,433 / 65535 = 0,0111 Hz
+		549,3247 / 65535 = 0,00838 Hz
 	
-	Ou seja: 1 / 0,0111 = 89,4757 segundos
+	Ou seja: 1 / 0,00838 = 119,301 segundos
 	*/
 	
         TIM_TimeBaseInitTypeDef TIMER_InitStructure;
@@ -55,9 +55,12 @@ void main(void){
 	TIMER_InitStructure.TIM_CounterMode = TIM_CounterMode_Up;
 	TIM_TimeBaseInit(TIM2, &TIMER_InitStructure);
         
-        /* This next line needs to be put here
-        That's why the 
+        /* 
+        This next line needs to be put here!!!
+        That's why the TIM_TimeBaseInit(TIM2, &TIMER_InitStructure); line sets the UIF flag
+        We are clearing it!!!
         */
+        
         TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
 	
 	TIM_SelectOnePulseMode(TIM2, TIM_OPMode_Single);        //one time
