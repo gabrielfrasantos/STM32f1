@@ -23,7 +23,7 @@ void main(void){
         
         GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set C13 to Low level ("0")
         
-        TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
+        //TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
 
 // Configure NVIC -- see preceding section
 	NVIC_InitTypeDef NVIC_InitStructure;
@@ -34,7 +34,6 @@ void main(void){
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
 	
-	//TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
 
 // Configure Timer
 	
@@ -55,12 +54,19 @@ void main(void){
 	TIMER_InitStructure.TIM_Period = 732; 
 	TIMER_InitStructure.TIM_CounterMode = TIM_CounterMode_Up;
 	TIM_TimeBaseInit(TIM2, &TIMER_InitStructure);
+        
+        /* This next line needs to be put here
+        That's why the 
+        */
+        TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
 	
-	//TIM_SelectOnePulseMode(TIM2, TIM_OPMode_Repetitive); 
+	TIM_SelectOnePulseMode(TIM2, TIM_OPMode_Single);        //one time
+        //TIM_SelectOnePulseMode(TIM2, TIM_OPMode_Repetitive);  //repetitive 
 
 // Enable Timer Interrupt , enable timer
 	TIM_ITConfig(TIM2, TIM_IT_Update , ENABLE);
 	TIM_Cmd(TIM2, ENABLE);
+        
 
 	while(1) { 
             //GPIO_SetBits(GPIOC, GPIO_Pin_13); // Set C13 to High level ("1")
