@@ -58,6 +58,7 @@
             <file>$PROJ_DIR$\Debug\List\Interrupt.map</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\External Interrupt\EWARM\main.c</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>

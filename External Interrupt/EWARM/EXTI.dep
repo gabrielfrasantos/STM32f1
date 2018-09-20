@@ -24,6 +24,12 @@
             <file>$PROJ_DIR$\..\std_periph\stm32f10x_gpio.h</file>
             <file>$PROJ_DIR$\..\std_periph\misc.h</file>
             <file>$PROJ_DIR$\..\std_periph\misc.c</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\settings\stm32f103x8.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$PROJ_DIR$\..\CMSIS\system_stm32f10x.h</file>
             <file>$PROJ_DIR$\..\CMSIS\system_stm32f10x.c</file>
             <file>$PROJ_DIR$\..\CMSIS\core_cm3.h</file>
@@ -36,8 +42,12 @@
             <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\Interrupts\EWARM\main.c</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$PROJ_DIR$\..\std_periph\stm32f10x_rcc.c</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
             <file>$PROJ_DIR$\..\std_periph\stm32f10x_rcc.h</file>
+            <file>$PROJ_DIR$\Debug\List\EXTI.map</file>
             <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.pbi</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
@@ -56,6 +66,33 @@
             <file>$PROJ_DIR$\..\std_periph\stm32f10x_tim.h</file>
         </outputs>
         <file>
+            <name>$PROJ_DIR$\..\std_periph\stm32f10x_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1 25 9 27 51 54 41 2 55 44 49 45 16 17</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 1 27 51 54 55 44 49 45 25 2 16 41 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
@@ -63,36 +100,8 @@
                     <file> 14</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 24</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 19 1 21 41 44 32 2 45 34 39 35 16 17</file>
-                </tool>
-                <tool>
                     <name>ICCARM</name>
-                    <file> 1 21 41 44 45 34 39 35 19 2 16 32 17</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\EXTI.out</name>
-            <outputs>
-                <tool>
-                    <name>OBJCOPY</name>
-                    <file> 0</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\std_periph\stm32f10x_gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 33</file>
+                    <file> 12</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -102,11 +111,57 @@
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 1 35 45 17 32 19 2 34 39 16 21 41 44</file>
+                    <file> 1 9 25 16 2 44 49 41 27 51 55 45 17 54</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 16 1 21 41 44 45 34 39 35 19 2 32 17</file>
+                    <file> 17 1 27 51 54 55 44 49 45 25 2 16 41 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\EXTI.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 20 7 12 52 3 21 48 47 50 5 24 19 40 38</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\std_periph\stm32f10x_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1 45 55 17 41 25 2 44 49 16 27 51 54</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 1 27 51 54 55 44 49 45 25 2 41 17 9</file>
                 </tool>
             </inputs>
         </file>
@@ -115,21 +170,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 43</file>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 25</file>
+                    <file> 31</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 35 19 45 17 1 21 41 2 34 39 16 44 32</file>
+                    <file> 45 25 55 17 1 27 51 2 44 49 16 54 41</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 17 1 21 41 44 45 34 39 35 19 2 16 32</file>
+                    <file> 17 1 27 51 54 55 44 49 45 25 2 16 41 9</file>
                 </tool>
             </inputs>
         </file>
@@ -141,18 +200,22 @@
                     <file> 4</file>
                 </tool>
                 <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
                     <name>__cstat</name>
-                    <file> 29</file>
+                    <file> 35</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 21 41 1 19 44 32 2 45 34 39 35 16 17</file>
+                    <file> 27 51 1 25 54 41 2 55 44 49 45 16 17</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 1 21 41 44 45 34 39 35 19 2 16 32 17</file>
+                    <file> 1 27 51 54 55 44 49 45 25 2 16 41 17 9</file>
                 </tool>
             </inputs>
         </file>
@@ -178,17 +241,17 @@
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 26</file>
+                    <file> 32</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 35 44 34 45 39 41</file>
+                    <file> 45 54 44 55 49 51</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 41 44 45 34 39 35</file>
+                    <file> 51 54 55 44 49 45</file>
                 </tool>
             </inputs>
         </file>
@@ -197,7 +260,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 13</file>
+                    <file> 13 42</file>
                 </tool>
             </outputs>
         </file>
@@ -206,21 +269,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 46</file>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 28</file>
+                    <file> 34</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 41 1 44 32 21 19 2 45 34 39 35 16 17</file>
+                    <file> 51 1 54 41 27 25 2 55 44 49 45 16 17</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 32 1 21 41 44 45 34 39 35 19 2 16 17</file>
+                    <file> 41 1 27 51 54 55 44 49 45 25 2 16 17 9</file>
                 </tool>
             </inputs>
         </file>
@@ -229,35 +296,28 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 36</file>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 27</file>
+                    <file> 33</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 41 39 34 16 21 1 32 19 2 45 35 17 48 44</file>
+                    <file> 51 49 44 16 27 1 41 25 2 55 45 17 58 54</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 48 1 21 41 44 45 34 39 35 19 2 16 32 17</file>
+                    <file> 58 1 27 51 54 55 44 49 45 25 2 16 41 17 9</file>
                 </tool>
             </inputs>
         </file>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\main.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>[REBUILD_ALL]</name>
-        </forcedrebuild>
     </configuration>
     <configuration>
         <name>Release</name>
