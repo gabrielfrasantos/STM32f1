@@ -10,6 +10,7 @@ void main(void)
   
   /* Enable GPIOC clock */
   RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+  /* Enable GPIOA clock */
   RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
   
   GPIO_InitTypeDef  GPIO_InitStructure;
@@ -22,13 +23,14 @@ void main(void)
   /* Configure PA.04 pin as in floating */
   GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4;
   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
   GPIO_Init(GPIOA, &GPIO_InitStructure);
 
   /* Enable AFIO clock */
   RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
 
-  /* Connect EXTI0 Line to PC.13 pin */
-  GPIO_EXTILineConfig(GPIO_PortSourceGPIOA, GPIO_PinSource7);
+  /* Connect EXTI0 Line to PA.04 pin */
+  GPIO_EXTILineConfig(GPIO_PortSourceGPIOA, GPIO_PinSource4);
 
   EXTI_InitTypeDef   EXTI_InitStructure;
   /* Configure EXTI0 line */
@@ -40,7 +42,7 @@ void main(void)
 
   NVIC_InitTypeDef   NVIC_InitStructure;
   /* Enable and set EXTI0 Interrupt to the lowest priority */
-  NVIC_InitStructure.NVIC_IRQChannel = EXTI0_IRQn;
+  NVIC_InitStructure.NVIC_IRQChannel = EXTI0_IRQn; /* ??? */
   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 3;
   NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
