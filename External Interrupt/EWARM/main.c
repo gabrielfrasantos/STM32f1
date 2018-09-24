@@ -52,6 +52,28 @@ void main(void)
   { 
     GPIO_SetBits(GPIOC, GPIO_Pin_13); // Set C13 to High level ("1")
     //GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set C13 to Low level ("0")
+    
+    /*
+    #define GPIO_Pin_9                 ((uint16_t)0x0200)  ///  0000 0010 0000 0000 
+    ************************************************************************
+    void GPIO_SetBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+    {
+      assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      assert_param(IS_GPIO_PIN(GPIO_Pin));
+  
+      GPIOx->BSRR = GPIO_Pin;  ///  
+    }
+    ************************************************************************
+    void GPIO_ResetBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+    {
+      assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      assert_param(IS_GPIO_PIN(GPIO_Pin));
+  
+      GPIOx->BRR = GPIO_Pin;
+    }
+    ************************************************************************
+    */
+    
   }
 }
 
