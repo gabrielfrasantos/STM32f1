@@ -16,7 +16,7 @@ void main(void)
   GPIO_InitTypeDef  GPIO_InitStructure;
   /* Configure PC.13 pin as PP */
   GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD;
   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
   GPIO_Init(GPIOA, &GPIO_InitStructure);
   
@@ -50,8 +50,8 @@ void main(void)
   
   while(1) 
   { 
-    GPIO_SetBits(GPIOC, GPIO_Pin_13); // Set C13 to High level ("1")
-    //GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set C13 to Low level ("0")
+    //GPIO_SetBits(GPIOC, GPIO_Pin_13); // Set C13 to High level ("1")
+    GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set C13 to Low level ("0")
   }
 }
 
