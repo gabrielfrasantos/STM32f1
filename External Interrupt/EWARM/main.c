@@ -42,7 +42,7 @@ void main(void)
 
   NVIC_InitTypeDef   NVIC_InitStructure;
   /* Enable and set EXTI0 Interrupt to the lowest priority */
-  NVIC_InitStructure.NVIC_IRQChannel = EXTI0_IRQn; /* ??? */
+  NVIC_InitStructure.NVIC_IRQChannel = EXTI4_IRQn; 
   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 3;
   NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
