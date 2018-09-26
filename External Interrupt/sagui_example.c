@@ -48,22 +48,32 @@ void fnvLedCtrl(void)
             /*IDLE - Sempre desligado.*/
             case 0:
             {
-                LED desligado;
+                //LED desligado
+		GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set C13 to Low level ("0")
+		if (ucButtonValue == 0)
+		{
+		    enLedState = 1;
+		}
             }
             break;
+			
             case 1:
             {
-                LED ligado;
-                
+                //LED ligado
+		GPIO_SetBits(GPIOC, GPIO_Pin_13); // Set C13 to High level ("1")
                 uiLedTm = 1000;
-                
                 enLedState = 2;
             }
             break;
+			
             case 2:
             {
-                enLedState = 0;
+		if (ucButtonValue != 0)
+		{
+		    enLedState = 0;
+		}
             }
+	    break;
         }
     }
 }
@@ -83,35 +93,58 @@ void TIM2_IRQHandler(void)
     {
         uiInDebTm--;
     }
-	TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
+    TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
 }
 
 void EXTI4_IRQHandler(void)
 {
-        if (enLedState == 0)
-        {
-            enLedState = 1;
-        }
-        EXTI_ClearITPendingBit(EXTI_Line4);
-        count++;
+    if (enLedState == 0)
+    {
+        enLedState = 1;
+    }
+    EXTI_ClearITPendingBit(EXTI_Line4);
+    count++;
 }
 
 /*****************************************************************************************************/
 
 /* Debounce function */
 
-uint8_t ucIgnDebCnt;
-uint8_t ucIgnPrevValue;
-uint8_t ucIgnValue;
+uint8_t ucButtonDebCnt = 4;
+uint8_t ucButtonPrevValue = 1;
+uint8_t ucButtonValue;
 
 void fnvInputDeb()
 {
     if (uiInDebTm == 0u)
     {
         uiInDebTm = 10u;
-        
-        
-        
+        if (GPIO_ReadInputDataBit(GPIO_PortSourceGPIOA, GPIO_PinSource4) != 0)
+	{
+		if (ucButtonPrevValue == 0)
+		{
+			ucButtonDebCnt = 4;
+			ucButtonPrevValue = 1;
+		}
+	}
+        else
+	{
+		if (ucButtonPrevValue != 0)
+		{
+			ucButtonDebCnt = 4;
+			ucButtonPrevValue = 0;
+		}
+	}
+	    
+	if (ucButtonDebCnt != 0)
+	{
+		ucButtonDebCnt--;
+	}
+	    
+	if (ucButtonDebCnt == 0)
+	{
+		ucButtonValue = ucButtonPrevValue;
+	}
     }
 }
 
@@ -140,11 +173,11 @@ void fnvConfigTimer(void)
 {
     TIM_TimeBaseInitTypeDef TIMER_InitStructure;
         
-	TIM_TimeBaseStructInit(&TIMER_InitStructure);
-	TIMER_InitStructure.TIM_Prescaler = 65535; 
-	TIMER_InitStructure.TIM_Period = 732; 
-	TIMER_InitStructure.TIM_CounterMode = TIM_CounterMode_Up;
-	TIM_TimeBaseInit(TIM2, &TIMER_InitStructure);
+    TIM_TimeBaseStructInit(&TIMER_InitStructure);
+    TIMER_InitStructure.TIM_Prescaler = 65535; //setar de forma a ter 1ms de clock
+    TIMER_InitStructure.TIM_Period = 732; //setar de forma a ter 1ms de clock
+    TIMER_InitStructure.TIM_CounterMode = TIM_CounterMode_Up;
+    TIM_TimeBaseInit(TIM2, &TIMER_InitStructure);
         
     /* 
     This next line needs to be put here!!!
@@ -154,12 +187,12 @@ void fnvConfigTimer(void)
         
     TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
 	
-	TIM_SelectOnePulseMode(TIM2, TIM_OPMode_Single);        //one time
+    TIM_SelectOnePulseMode(TIM2, TIM_OPMode_Single);        //one time
     //TIM_SelectOnePulseMode(TIM2, TIM_OPMode_Repetitive);  //repetitive 
 
     // Enable Timer Interrupt , enable timer
-	TIM_ITConfig(TIM2, TIM_IT_Update , ENABLE);
-	TIM_Cmd(TIM2, ENABLE);
+    TIM_ITConfig(TIM2, TIM_IT_Update , ENABLE);
+    TIM_Cmd(TIM2, ENABLE);
 }
 
 void fnvConfigIntExt(void)
