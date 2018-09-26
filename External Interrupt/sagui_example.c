@@ -14,6 +14,10 @@
 uint16_t uiLedTm = 0;
 enLedState = 0u;
 int count = 0;
+/* Debounce variables */
+uint8_t ucButtonDebCnt = 4;
+uint8_t ucButtonPrevValue = 1;
+uint8_t ucButtonValue = 1;
 
 /*****************************************************************************************************/
 
@@ -111,10 +115,6 @@ void EXTI4_IRQHandler(void)
 
 /* Debounce function */
 
-uint8_t ucButtonDebCnt = 4;
-uint8_t ucButtonPrevValue = 1;
-uint8_t ucButtonValue;
-
 void fnvInputDeb()
 {
     if (uiInDebTm == 0u)
@@ -142,7 +142,8 @@ void fnvInputDeb()
 		ucButtonDebCnt--;
 	}
 	    
-	if (ucButtonDebCnt == 0)
+	//if (ucButtonDebCnt == 0)
+	else
 	{
 		ucButtonValue = ucButtonPrevValue;
 	}
