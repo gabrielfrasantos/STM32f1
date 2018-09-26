@@ -120,7 +120,7 @@ void fnvInputDeb()
     if (uiInDebTm == 0u)
     {
         uiInDebTm = 10u;
-        if (GPIO_ReadInputDataBit(GPIO_PortSourceGPIOA, GPIO_PinSource4) != 0)
+        if (GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_4) != 0)
 	{
 		if (ucButtonPrevValue == 0)
 		{
