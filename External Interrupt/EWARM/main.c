@@ -67,12 +67,13 @@ void fnvLedCtrl(void)
                 }
                 GPIOC->ODR ^= GPIO_Pin_13;
                 //uiLedTm = 1000;
-                //enLedState = 2;
+                enLedState = 2;
             }
             break;
 			
             case 2:
             {
+                GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set C13 to Low level ("0")
 		if (ucButtonValue != 0)
 		{
 		    enLedState = 0;
