@@ -7,7 +7,7 @@ Objectives:
 - GPIO -> OK
 - TIM Interrupt -> OK
 - EXT Iterrupt -> OK
-- Better use of memory on Button Input -> ongoing (sagui_example.c)
+- Better use of memory on Button Input -> OK (sagui_example.c)
 - ADC Button -> ongoing
 - USART
 - I2C
