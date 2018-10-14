@@ -5,142 +5,16 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\SETERRFN.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETFUNCS.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETLINEB.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETVBUF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\SNPRINTF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\SPRINTF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\SSCANF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\STRAOPEN.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\STRAUTIL.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\STRNOPEN.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\STROPEN.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\STRUTIL.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\UNGETC.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\VFPRINTF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\VFSCANF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\FGETS.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FILBUF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FLSBUF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FLUSHALL.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FOPEN.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FPRINTF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FPUTC.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FPUTS.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FREAD.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FREOPEN.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FSCANF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FSEEK.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FTELL.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FUNCS.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FUNCS2.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FWRITE.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FUNCS.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\FUNCS2.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\FWRITE.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\GETBUF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\GETS.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\GETW.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\IOB.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\MEMCPY.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\POPEN.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\PRINTF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\PUTPAD.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\PUTS.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\PUTW.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\REWIND.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SAPRINTF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\ASKF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SCANF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SCANFILE.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETBUF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETBUFFE.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETERRFN.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETFUNCS.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETLINEB.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETVBUF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SNPRINTF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SPRINTF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SSCANF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\STRAOPEN.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\STRAUTIL.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\STRNOPEN.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\STROPEN.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\GETBUF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\GETS.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\GETW.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\IOB.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\MEMCPY.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\POPEN.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\PRINTF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\PUTPAD.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\PUTS.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\PUTW.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\REWIND.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SAPRINTF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SCANF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SCANFILE.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETBUF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\DOSCAN.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\FCLOSE.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\CLEANUP.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\ERRFUNC.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\DOPRNT.__cstat.et</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\FABORT.__cstat.et</file>
-            <file>$PROJ_DIR$\..\user\FPRINTF.C</file>
-            <file>$PROJ_DIR$\..\user\FDOPEN.C</file>
-            <file>$PROJ_DIR$\..\user\FLUSHALL.C</file>
-            <file>$PROJ_DIR$\..\user\FGETC.C</file>
-            <file>$PROJ_DIR$\..\user\FFLUSH.C</file>
-            <file>$PROJ_DIR$\..\user\FPUTC.C</file>
-            <file>$PROJ_DIR$\..\user\FOPEN.C</file>
-            <file>$PROJ_DIR$\..\user\FPUTS.C</file>
-            <file>$PROJ_DIR$\..\user\FILBUF.C</file>
-            <file>$PROJ_DIR$\..\user\DOSCAN.C</file>
-            <file>$PROJ_DIR$\..\user\FGETS.C</file>
-            <file>$PROJ_DIR$\..\user\FABORT.C</file>
-            <file>$PROJ_DIR$\..\user\FCLOSE.C</file>
-            <file>$PROJ_DIR$\..\user\DOPRNT.C</file>
-            <file>$PROJ_DIR$\..\user\ERRFUNC.C</file>
-            <file>$PROJ_DIR$\..\user\CLEANUP.C</file>
-            <file>$PROJ_DIR$\..\user\FLSBUF.C</file>
-            <file>$PROJ_DIR$\..\user\ASKF.C</file>
-            <file>$PROJ_DIR$\..\user\FDCLOSE.C</file>
-            <file>$PROJ_DIR$\..\user\FUNCS.C</file>
-            <file>$PROJ_DIR$\..\user\FWRITE.C</file>
-            <file>$PROJ_DIR$\..\user\GETBUF.C</file>
-            <file>$PROJ_DIR$\..\user\PUTS.C</file>
-            <file>$PROJ_DIR$\..\user\FSEEK.C</file>
-            <file>$PROJ_DIR$\..\user\PRINTF.H</file>
-            <file>$PROJ_DIR$\..\user\PUTW.C</file>
-            <file>$PROJ_DIR$\..\user\FSCANF.C</file>
-            <file>$PROJ_DIR$\..\user\FTELL.C</file>
-            <file>$PROJ_DIR$\..\user\FREAD.C</file>
-            <file>$PROJ_DIR$\..\user\POPEN.C</file>
-            <file>$PROJ_DIR$\..\user\MEMCPY.C</file>
-            <file>$PROJ_DIR$\..\user\GETW.C</file>
-            <file>$PROJ_DIR$\..\user\FUNCS2.C</file>
-            <file>$PROJ_DIR$\..\user\GETS.C</file>
-            <file>$PROJ_DIR$\..\user\IOB.C</file>
-            <file>$PROJ_DIR$\..\user\FUNCS.H</file>
-            <file>$PROJ_DIR$\..\user\FREOPEN.C</file>
-            <file>$PROJ_DIR$\..\user\PRINTF.C</file>
-            <file>$PROJ_DIR$\..\user\PUTPAD.C</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\core_cm3.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\List\temperature.map</file>
-            <file>$PROJ_DIR$\settings\stm32f103x8.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\misc.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\..\user\SETBUF.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\VSPRINTF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\VSSCANF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\VSAPRINT.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\ASKF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLEANUP.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\DOPRNT.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\DOSCAN.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ERRFUNC.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\FABORT.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\FCLOSE.pbi</file>
             <file>$PROJ_DIR$\..\user\SCANF.C</file>
             <file>$PROJ_DIR$\..\user\SETLINEB.C</file>
             <file>$PROJ_DIR$\..\user\STRAUTIL.C</file>
@@ -155,87 +29,6 @@
             <file>$PROJ_DIR$\..\user\SETFUNCS.C</file>
             <file>$PROJ_DIR$\..\user\SSCANF.C</file>
             <file>$PROJ_DIR$\..\user\SCANFILE.C</file>
-            <file>$PROJ_DIR$\Debug\Obj\ERRFUNC.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\DOSCAN.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\DOPRNT.o</file>
-            <file>$PROJ_DIR$\Debug\Exe\temperature.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\temperature.pbd</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FABORT.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FDCLOSE.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\CLEANUP.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FCLOSE.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FDOPEN.o</file>
-            <file>$PROJ_DIR$\..\manual_config\stm32f10x.h</file>
-            <file>$PROJ_DIR$\..\manual_config\stm32f10x_conf.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\ASKF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\VPRINTF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSAPRINT.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSCANF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSPRINTF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSSCANF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\VFSCANF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\VPRINTF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSAPRINT.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSCANF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSPRINTF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSSCANF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\ASKF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\CLEANUP.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\DOPRNT.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\DOSCAN.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\ERRFUNC.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\FABORT.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\FCLOSE.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\FDCLOSE.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\FDOPEN.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\STRUTIL.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\UNGETC.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\VFPRINTF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\VFSCANF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\VPRINTF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSAPRINT.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSCANF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSPRINTF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\VSSCANF.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
-            <file>$PROJ_DIR$\..\user\UNGETC.C</file>
-            <file>$PROJ_DIR$\..\user\VSCANF.C</file>
-            <file>$PROJ_DIR$\..\user\VSSCANF.C</file>
-            <file>$PROJ_DIR$\..\user\STROPEN.C</file>
-            <file>$PROJ_DIR$\..\user\STRNOPEN.C</file>
-            <file>$PROJ_DIR$\..\user\VSPRINTF.C</file>
-            <file>$PROJ_DIR$\..\user\STRUTIL.C</file>
-            <file>$PROJ_DIR$\..\user\VSAPRINT.C</file>
-            <file>$PROJ_DIR$\..\user\VPRINTF.C</file>
-            <file>$PROJ_DIR$\..\user\VFPRINTF.C</file>
-            <file>$PROJ_DIR$\..\user\VFSCANF.C</file>
-            <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.pbi</file>
-            <file>$PROJ_DIR$\..\std_periph\stm32f10x_gpio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\..\std_periph\stm32f10x_rcc.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
-            <file>$PROJ_DIR$\..\std_periph\misc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_cl.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\core_cm3.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\FFLUSH.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\FGETC.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\FGETS.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\FILBUF.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\FLSBUF.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\FLUSHALL.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\FOPEN.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\FPRINTF.pbi</file>
@@ -246,19 +39,11 @@
             <file>$PROJ_DIR$\Debug\Obj\FSCANF.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\FSEEK.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\FTELL.pbi</file>
-            <file>$PROJ_DIR$\..\std_periph\stm32f10x_adc.h</file>
-            <file>$PROJ_DIR$\..\std_periph\stm32f10x_usart.c</file>
-            <file>$PROJ_DIR$\..\std_periph\stm32f10x_usart.h</file>
-            <file>$PROJ_DIR$\..\std_periph\stm32f10x_adc.c</file>
-            <file>$PROJ_DIR$\..\std_periph\stm32f10x_rcc.c</file>
             <file>$PROJ_DIR$\Debug\Obj\FGETC.__cstat.et</file>
-            <file>$PROJ_DIR$\..\user\stdio.h</file>
             <file>$PROJ_DIR$\Debug\Obj\FGETS.__cstat.et</file>
-            <file>$PROJ_DIR$\..\std_periph\stm32f10x_gpio.c</file>
             <file>$PROJ_DIR$\Debug\Obj\FPRINTF.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\FLSBUF.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\FOPEN.__cstat.et</file>
-            <file>$PROJ_DIR$\..\std_periph\misc.c</file>
             <file>$PROJ_DIR$\Debug\Obj\FDCLOSE.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\FFLUSH.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\FDOPEN.__cstat.et</file>
@@ -275,6 +60,167 @@
             <file>$PROJ_DIR$\Debug\Obj\PUTS.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\PUTW.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\REWIND.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_cl.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\core_cm3.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\FFLUSH.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\FGETC.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\FGETS.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\FILBUF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\FLSBUF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\DOSCAN.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FCLOSE.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\CLEANUP.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ERRFUNC.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\DOPRNT.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FABORT.__cstat.et</file>
+            <file>$PROJ_DIR$\..\user\FPRINTF.C</file>
+            <file>$PROJ_DIR$\..\user\FDOPEN.C</file>
+            <file>$PROJ_DIR$\..\user\FLUSHALL.C</file>
+            <file>$PROJ_DIR$\..\user\FGETC.C</file>
+            <file>$PROJ_DIR$\..\user\FFLUSH.C</file>
+            <file>$PROJ_DIR$\..\user\FPUTC.C</file>
+            <file>$PROJ_DIR$\..\user\FOPEN.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\FGETS.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\FREOPEN.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\FTELL.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\FUNCS2.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SETVBUF.__cstat.et</file>
+            <file>$PROJ_DIR$\..\std_periph\stm32f10x_rcc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SETFUNCS.__cstat.et</file>
+            <file>$PROJ_DIR$\..\user\stdio.h</file>
+            <file>$PROJ_DIR$\..\std_periph\stm32f10x_usart.c</file>
+            <file>$PROJ_DIR$\..\std_periph\stm32f10x_usart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SETERRFN.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SETLINEB.__cstat.et</file>
+            <file>$PROJ_DIR$\..\std_periph\stm32f10x_rcc.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\SNPRINTF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPRINTF.__cstat.et</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\std_periph\stm32f10x_gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\FUNCS.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FTELL.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FREOPEN.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FUNCS2.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FREAD.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FPUTS.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\GETBUF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FWRITE.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FSCANF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\temperature.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\temperature.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\FDOPEN.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\ASKF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\VPRINTF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\VSAPRINT.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\VSCANF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FDCLOSE.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\FDOPEN.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\STRUTIL.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\UNGETC.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\VFPRINTF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\VFSCANF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\VPRINTF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\VSAPRINT.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\VSCANF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\VSPRINTF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\VSSCANF.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$PROJ_DIR$\..\user\UNGETC.C</file>
+            <file>$PROJ_DIR$\..\user\VSCANF.C</file>
+            <file>$PROJ_DIR$\..\user\FPUTS.C</file>
+            <file>$PROJ_DIR$\..\user\FILBUF.C</file>
+            <file>$PROJ_DIR$\..\user\DOSCAN.C</file>
+            <file>$PROJ_DIR$\..\user\FGETS.C</file>
+            <file>$PROJ_DIR$\..\user\FABORT.C</file>
+            <file>$PROJ_DIR$\..\user\FCLOSE.C</file>
+            <file>$PROJ_DIR$\..\user\DOPRNT.C</file>
+            <file>$PROJ_DIR$\..\user\ERRFUNC.C</file>
+            <file>$PROJ_DIR$\..\user\CLEANUP.C</file>
+            <file>$PROJ_DIR$\..\user\FLSBUF.C</file>
+            <file>$PROJ_DIR$\..\user\ASKF.C</file>
+            <file>$PROJ_DIR$\..\user\FDCLOSE.C</file>
+            <file>$PROJ_DIR$\..\user\FUNCS.C</file>
+            <file>$PROJ_DIR$\..\user\FWRITE.C</file>
+            <file>$PROJ_DIR$\..\user\GETBUF.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\VFPRINTF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SSCANF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\UNGETC.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\STRNOPEN.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\STROPEN.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\STRUTIL.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\STRAOPEN.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\STRAUTIL.__cstat.et</file>
+            <file>$PROJ_DIR$\..\user\PUTS.C</file>
+            <file>$PROJ_DIR$\..\user\FSEEK.C</file>
+            <file>$PROJ_DIR$\..\user\PRINTF.H</file>
+            <file>$PROJ_DIR$\..\user\PUTW.C</file>
+            <file>$PROJ_DIR$\..\user\FSCANF.C</file>
+            <file>$PROJ_DIR$\..\user\FTELL.C</file>
+            <file>$PROJ_DIR$\..\user\FREAD.C</file>
+            <file>$PROJ_DIR$\..\user\POPEN.C</file>
+            <file>$PROJ_DIR$\..\user\MEMCPY.C</file>
+            <file>$PROJ_DIR$\..\user\GETW.C</file>
+            <file>$PROJ_DIR$\..\user\FUNCS2.C</file>
+            <file>$PROJ_DIR$\..\user\GETS.C</file>
+            <file>$PROJ_DIR$\..\user\IOB.C</file>
+            <file>$PROJ_DIR$\..\user\FUNCS.H</file>
+            <file>$PROJ_DIR$\..\user\FREOPEN.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\STRNOPEN.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\STROPEN.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\GETS.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\IOB.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SAPRINTF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SCANF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SCANFILE.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SETBUF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SETBUFFE.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SETERRFN.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SETFUNCS.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SETLINEB.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SETVBUF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SNPRINTF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPRINTF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SSCANF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\STRAOPEN.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\STRAUTIL.pbi</file>
+            <file>$PROJ_DIR$\..\CMSIS\startup_stm32f10x_cl.s</file>
+            <file>$PROJ_DIR$\..\manual_config\stm32f10x_conf.h</file>
+            <file>$PROJ_DIR$\..\std_periph\stm32f10x_gpio.c</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm3.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\system_stm32f10x.h</file>
+            <file>$PROJ_DIR$\..\manual_config\stm32f10x.h</file>
+            <file>$PROJ_DIR$\..\std_periph\misc.c</file>
+            <file>$PROJ_DIR$\..\std_periph\misc.h</file>
+            <file>$PROJ_DIR$\..\std_periph\stm32f10x_adc.c</file>
+            <file>$PROJ_DIR$\..\CMSIS\system_stm32f10x.c</file>
+            <file>$PROJ_DIR$\..\std_periph\stm32f10x_adc.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm3.c</file>
+            <file>$PROJ_DIR$\..\user\VSSCANF.C</file>
+            <file>$PROJ_DIR$\..\user\STROPEN.C</file>
+            <file>$PROJ_DIR$\..\user\STRNOPEN.C</file>
+            <file>$PROJ_DIR$\..\user\VSPRINTF.C</file>
+            <file>$PROJ_DIR$\..\user\STRUTIL.C</file>
+            <file>$PROJ_DIR$\..\user\VSAPRINT.C</file>
+            <file>$PROJ_DIR$\..\user\VPRINTF.C</file>
+            <file>$PROJ_DIR$\..\user\VFPRINTF.C</file>
+            <file>$PROJ_DIR$\..\user\VFSCANF.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\SAPRINTF.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\SCANF.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\SCANFILE.__cstat.et</file>
@@ -288,958 +234,61 @@
             <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.o</file>
             <file>$PROJ_DIR$\Debug\Obj\core_cm3.o</file>
             <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETBUFFE.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETERRFN.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETFUNCS.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETLINEB.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SETVBUF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SNPRINTF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SPRINTF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\SSCANF.o</file>
             <file>$PROJ_DIR$\Debug\Obj\STRAOPEN.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\STRAUTIL.o</file>
             <file>$PROJ_DIR$\Debug\Obj\STRNOPEN.o</file>
             <file>$PROJ_DIR$\Debug\Obj\STROPEN.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\STRUTIL.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\UNGETC.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\VFPRINTF.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FGETC.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\FFLUSH.o</file>
             <file>$PROJ_DIR$\Debug\Obj\FSEEK.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\FUNCS.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\FTELL.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\FREOPEN.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\FUNCS2.__cstat.et</file>
-            <file>$PROJ_DIR$\..\CMSIS\core_cm3.c</file>
-            <file>$PROJ_DIR$\..\CMSIS\system_stm32f10x.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\FREAD.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\FPUTS.__cstat.et</file>
-            <file>$PROJ_DIR$\..\CMSIS\core_cm3.h</file>
-            <file>$PROJ_DIR$\..\CMSIS\system_stm32f10x.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\GETBUF.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\FWRITE.__cstat.et</file>
-            <file>$PROJ_DIR$\..\CMSIS\startup_stm32f10x_cl.s</file>
-            <file>$PROJ_DIR$\Debug\Obj\FSCANF.__cstat.et</file>
+            <file>$PROJ_DIR$\..\user\PRINTF.C</file>
+            <file>$PROJ_DIR$\..\user\PUTPAD.C</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\core_cm3.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\temperature.map</file>
+            <file>$PROJ_DIR$\settings\stm32f103x8.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\user\SETBUF.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\VFSCANF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\FUNCS.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\FUNCS2.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\FWRITE.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\GETBUF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\GETS.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\GETW.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\IOB.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MEMCPY.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\POPEN.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\PRINTF.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\PUTPAD.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\PUTS.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\PUTW.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\REWIND.pbi</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 155</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 134</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 156</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 306 223 217 215 213 247 309 214 163 221 216 162 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 162 309 214 224 223 221 216 225 306 163 213 215 217 243 241 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FPRINTF.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 233</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 250</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FDOPEN.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 184</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 256</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 161</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FLUSHALL.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 231</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 258</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FGETC.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 227</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 246</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FFLUSH.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 226</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 255</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FPUTC.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 234</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 259</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FOPEN.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 232</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 252</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224 119</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247 119</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FPUTS.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 235</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 308</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FILBUF.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 229</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 257</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\DOSCAN.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 179</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 77</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 195 223 225 194 224 221 216 247</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247 195 224 223 221 216 225</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FGETS.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 228</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 248</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 15</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FABORT.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 181</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 83</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FCLOSE.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 182</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 78</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\DOPRNT.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 178</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 81</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 221 216 108 223 194 224 225 247</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247 108</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\ERRFUNC.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 180</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 80</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\CLEANUP.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 177</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 79</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FLSBUF.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 230</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 251</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\ASKF.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 176</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 164</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FDCLOSE.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 183</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 254</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FUNCS.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 31</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 301</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 119</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 119</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FWRITE.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 33</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 312</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\GETBUF.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 34</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 311</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224 119</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247 119</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\PUTS.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 42</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 267</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FSEEK.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 239</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 300</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\PUTW.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 43</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 268</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FSCANF.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 238</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 314</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FTELL.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 240</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 302</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 27</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FREAD.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 236</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 307</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\POPEN.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 39</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 264</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 224 194 119 247 223 221 216 225</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247 119</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\MEMCPY.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 38</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 263</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\GETW.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 36</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 261</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FUNCS2.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 32</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 304</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 29</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 119</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 119</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\GETS.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 35</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 260</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 63</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\IOB.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 37</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 262</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 65</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 216 224 119 194 223 221 225 247</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247 119</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\FREOPEN.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 237</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 303</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224 119</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247 119</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\PRINTF.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 40</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 265</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\PUTPAD.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 41</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 266</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224 108</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247 108</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\user\SETBUF.C</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 49</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 273</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\..\user\SCANF.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 47</file>
+                    <name>__cstat</name>
+                    <file> 217</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 271</file>
+                    <name>BICOMP</name>
+                    <file> 176</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
@@ -1247,22 +296,22 @@
             <name>$PROJ_DIR$\..\user\SETLINEB.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 53</file>
+                    <name>__cstat</name>
+                    <file> 94</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 2</file>
+                    <name>BICOMP</name>
+                    <file> 182</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
@@ -1270,18 +319,18 @@
             <name>$PROJ_DIR$\..\user\STRAUTIL.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 59</file>
+                    <name>__cstat</name>
+                    <file> 155</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 8</file>
+                    <name>BICOMP</name>
+                    <file> 188</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247 119</file>
+                    <file> 90 169</file>
                 </tool>
             </inputs>
         </file>
@@ -1289,22 +338,22 @@
             <name>$PROJ_DIR$\..\user\SETERRFN.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 51</file>
+                    <name>__cstat</name>
+                    <file> 93</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 0</file>
+                    <name>BICOMP</name>
+                    <file> 180</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
@@ -1312,22 +361,22 @@
             <name>$PROJ_DIR$\..\user\STRAOPEN.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 58</file>
+                    <name>ICCARM</name>
+                    <file> 229</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 7</file>
+                    <file> 154</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 291</file>
+                    <name>BICOMP</name>
+                    <file> 187</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
                 </tool>
             </inputs>
         </file>
@@ -1335,22 +384,22 @@
             <name>$PROJ_DIR$\..\user\SETVBUF.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 54</file>
+                    <name>__cstat</name>
+                    <file> 87</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 3</file>
+                    <name>BICOMP</name>
+                    <file> 183</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224 119</file>
+                    <name>ICCARM</name>
+                    <file> 90 169</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247 119</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63 169</file>
                 </tool>
             </inputs>
         </file>
@@ -1358,22 +407,22 @@
             <name>$PROJ_DIR$\..\user\SNPRINTF.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 55</file>
+                    <name>__cstat</name>
+                    <file> 96</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 4</file>
+                    <name>BICOMP</name>
+                    <file> 184</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
@@ -1381,22 +430,22 @@
             <name>$PROJ_DIR$\..\user\REWIND.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 44</file>
+                    <name>__cstat</name>
+                    <file> 54</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 269</file>
+                    <name>BICOMP</name>
+                    <file> 262</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
@@ -1404,22 +453,22 @@
             <name>$PROJ_DIR$\..\user\SAPRINTF.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 45</file>
+                    <name>__cstat</name>
+                    <file> 216</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 270</file>
+                    <name>BICOMP</name>
+                    <file> 175</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
@@ -1427,22 +476,22 @@
             <name>$PROJ_DIR$\..\user\SPRINTF.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 56</file>
+                    <name>__cstat</name>
+                    <file> 97</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 5</file>
+                    <name>BICOMP</name>
+                    <file> 185</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
@@ -1450,22 +499,22 @@
             <name>$PROJ_DIR$\..\user\SETBUFFE.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 50</file>
+                    <name>__cstat</name>
+                    <file> 220</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 274</file>
+                    <name>BICOMP</name>
+                    <file> 179</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
@@ -1473,22 +522,22 @@
             <name>$PROJ_DIR$\..\user\SETFUNCS.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 52</file>
+                    <name>__cstat</name>
+                    <file> 89</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 1</file>
+                    <name>BICOMP</name>
+                    <file> 181</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224 119</file>
+                    <name>ICCARM</name>
+                    <file> 90 169</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247 119</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63 169</file>
                 </tool>
             </inputs>
         </file>
@@ -1496,22 +545,22 @@
             <name>$PROJ_DIR$\..\user\SSCANF.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 57</file>
+                    <name>__cstat</name>
+                    <file> 149</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 6</file>
+                    <name>BICOMP</name>
+                    <file> 186</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 247</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
@@ -1519,22 +568,258 @@
             <name>$PROJ_DIR$\..\user\SCANFILE.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 48</file>
+                    <name>__cstat</name>
+                    <file> 218</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 272</file>
+                    <name>BICOMP</name>
+                    <file> 177</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 223 221 216 247 194 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FPRINTF.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FDOPEN.C</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FLUSHALL.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FGETC.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FFLUSH.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FPUTC.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FOPEN.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63 169</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\std_periph\stm32f10x_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 225</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 228</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 223</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 194 192 55 63 62 60 56 64 193 190 99 88 196 199</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92 192 194 55 63 88 193 190 62 60 56 64 99 196 199</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\std_periph\stm32f10x_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 245</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 215</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 194 192 55 63 62 60 56 64 193 190 99 196 92 199</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62 64 196 193 190 60 56 99 88 194 192 55 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 246</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 194 192 55 63 62 60 56 64 193 190 99 88 196 92 199 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196 62 64 194 88 193 190 60 56 99 199 192 55 63 92</file>
                 </tool>
             </inputs>
         </file>
@@ -1543,17 +828,17 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 129</file>
+                    <file> 241</file>
                 </tool>
                 <tool>
                     <name>OBJCOPY</name>
-                    <file> 278</file>
+                    <file> 224</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 130 281 156 207 218 280 209 211 279 220 124 123 127 126</file>
+                    <file> 242 227 112 210 57 226 212 214 225 59 236 235 239 238</file>
                 </tool>
             </inputs>
         </file>
@@ -1561,18 +846,18 @@
             <name>$PROJ_DIR$\..\user\UNGETC.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 186</file>
+                    <name>__cstat</name>
+                    <file> 150</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 12</file>
+                    <name>BICOMP</name>
+                    <file> 121</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
                 </tool>
             </inputs>
         </file>
@@ -1580,399 +865,666 @@
             <name>$PROJ_DIR$\..\user\VSCANF.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 191</file>
+                    <name>__cstat</name>
+                    <file> 117</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 167</file>
+                    <name>BICOMP</name>
+                    <file> 126</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\VSSCANF.C</name>
+            <name>$PROJ_DIR$\..\user\FPUTS.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 193</file>
+                    <name>__cstat</name>
+                    <file> 105</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 169</file>
+                    <name>BICOMP</name>
+                    <file> 28</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\STROPEN.C</name>
+            <name>$PROJ_DIR$\..\user\FILBUF.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 61</file>
-                </tool>
-                <tool>
                     <name>__cstat</name>
-                    <file> 10</file>
+                    <file> 42</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 294</file>
+                    <name>BICOMP</name>
+                    <file> 68</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\STRNOPEN.C</name>
+            <name>$PROJ_DIR$\..\user\DOSCAN.C</name>
             <outputs>
                 <tool>
+                    <name>__cstat</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
                     <name>BICOMP</name>
-                    <file> 60</file>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90 130 63 62 60 56 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130 62 64 129 63 60 56 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FGETS.C</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FABORT.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FCLOSE.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
                     <file> 9</file>
                 </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 293</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\VSPRINTF.C</name>
+            <name>$PROJ_DIR$\..\user\DOPRNT.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 192</file>
+                    <name>__cstat</name>
+                    <file> 74</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 168</file>
+                    <name>BICOMP</name>
+                    <file> 5</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 56 158 62 129 63 64 90</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\STRUTIL.C</name>
+            <name>$PROJ_DIR$\..\user\ERRFUNC.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 185</file>
+                    <name>__cstat</name>
+                    <file> 73</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 11</file>
+                    <name>BICOMP</name>
+                    <file> 7</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\VSAPRINT.C</name>
+            <name>$PROJ_DIR$\..\user\CLEANUP.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 190</file>
+                    <name>__cstat</name>
+                    <file> 72</file>
                 </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FLSBUF.C</name>
+            <outputs>
                 <tool>
                     <name>__cstat</name>
-                    <file> 166</file>
+                    <file> 37</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 172</file>
+                    <name>BICOMP</name>
+                    <file> 69</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\VPRINTF.C</name>
+            <name>$PROJ_DIR$\..\user\ASKF.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 189</file>
+                    <name>__cstat</name>
+                    <file> 114</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 165</file>
+                    <name>BICOMP</name>
+                    <file> 3</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\VFPRINTF.C</name>
+            <name>$PROJ_DIR$\..\user\FDCLOSE.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 187</file>
+                    <name>__cstat</name>
+                    <file> 39</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 13</file>
+                    <name>BICOMP</name>
+                    <file> 118</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\VFSCANF.C</name>
+            <name>$PROJ_DIR$\..\user\FUNCS.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 188</file>
+                    <name>__cstat</name>
+                    <file> 100</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 14</file>
+                    <name>BICOMP</name>
+                    <file> 249</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 247</file>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\std_periph\stm32f10x_usart.c</name>
+            <name>$PROJ_DIR$\..\user\FWRITE.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 277</file>
-                </tool>
-                <tool>
                     <name>__cstat</name>
-                    <file> 282</file>
+                    <file> 107</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 279</file>
+                    <name>BICOMP</name>
+                    <file> 251</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 243 309 162 214 224 215 306 163 223 221 216 225 213 217 241</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 243 162 309 214 224 223 221 216 225 306 163 213 215 217 241</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\std_periph\stm32f10x_adc.c</name>
+            <name>$PROJ_DIR$\..\user\GETBUF.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 276</file>
-                </tool>
-                <tool>
                     <name>__cstat</name>
-                    <file> 275</file>
+                    <file> 106</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 280</file>
+                    <name>BICOMP</name>
+                    <file> 252</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 306 241 163 221 216 213 162 223 225 217 215 309 214 224 243</file>
+                    <name>ICCARM</name>
+                    <file> 90 169</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 241 162 309 214 224 223 221 216 225 306 163 213 215 217 243</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63 169</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\std_periph\stm32f10x_rcc.c</name>
+            <name>$PROJ_DIR$\..\user\PUTS.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 212</file>
-                </tool>
-                <tool>
                     <name>__cstat</name>
-                    <file> 133</file>
+                    <file> 52</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 211</file>
+                    <name>BICOMP</name>
+                    <file> 260</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 223 225 217 306 163 221 216 213 215 162 309 214 224</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 215 162 309 214 224 223 221 216 225 306 163 213 217 243 241</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\std_periph\stm32f10x_gpio.c</name>
+            <name>$PROJ_DIR$\..\user\FSEEK.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 210</file>
-                </tool>
-                <tool>
                     <name>__cstat</name>
-                    <file> 132</file>
+                    <file> 232</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 209</file>
+                    <name>BICOMP</name>
+                    <file> 32</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 309 162 215 214 224 213 306 163 223 221 216 225 217</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 213 162 309 214 224 223 221 216 225 306 163 215 217 243 241</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\std_periph\misc.c</name>
+            <name>$PROJ_DIR$\..\user\PUTW.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 208</file>
-                </tool>
-                <tool>
                     <name>__cstat</name>
-                    <file> 131</file>
+                    <file> 53</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 207</file>
+                    <name>BICOMP</name>
+                    <file> 261</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 306 162 309 214 224 215 217 163 223 221 216 225 213</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 217 162 309 214 224 223 221 216 225 306 163 213 215 243 241</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\..\user\FSCANF.C</name>
             <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 153 129</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\CMSIS\core_cm3.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 219</file>
-                </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 128</file>
+                    <file> 108</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 281</file>
+                    <name>BICOMP</name>
+                    <file> 31</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 225 224 221 223 216 214</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 214 224 223 221 216 225</file>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\CMSIS\system_stm32f10x.c</name>
+            <name>$PROJ_DIR$\..\user\FTELL.C</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 222</file>
+                    <name>ICCARM</name>
+                    <file> 85</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 125</file>
+                    <file> 101</file>
                 </tool>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 220</file>
+                    <name>BICOMP</name>
+                    <file> 33</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 221 213 309 163 216 214 162 306 223 225 217 224 215</file>
+                    <name>ICCARM</name>
+                    <file> 90</file>
                 </tool>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FREAD.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
                     <name>ICCARM</name>
-                    <file> 162 309 214 224 223 221 216 225 306 163 213 215 217 243 241</file>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\POPEN.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 257</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63 129 169 90 62 60 56 64</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\MEMCPY.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 256</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\GETW.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 254</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FUNCS2.C</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 250</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\GETS.C</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 253</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\IOB.C</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 174</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 255</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56 63 169 129 62 60 64 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\FREOPEN.C</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63 169</file>
                 </tool>
             </inputs>
         </file>
@@ -1981,9 +1533,405 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 218</file>
+                    <file> 57</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\std_periph\stm32f10x_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 212</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 213</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99 194 192 55 63 62 60 56 64 193 190 88 196 92 199</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 192 194 88 55 63 99 193 190 62 60 56 64 196</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\std_periph\misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 210</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 243</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 196 194 192 55 63 62 60 56 64 193 190 99 88 92 199</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 193 194 192 55 63 88 196 190 62 60 56 64 99</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\std_periph\stm32f10x_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 226</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 221</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 222</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199 194 192 55 63 62 60 56 64 193 190 99 88 196 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 193 199 190 60 56 99 194 62 64 196 88 192 55 63 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\CMSIS\system_stm32f10x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 237</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 194 192 55 63 62 60 56 64 193 190 99 88 196 92 199</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 99 192 190 56 55 194 193 62 64 196 63 88</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\CMSIS\core_cm3.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 227</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 240</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 63 62 60 56 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 63 60 62 56 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\VSSCANF.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\STROPEN.C</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 231</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\STRNOPEN.C</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 230</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 171</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\VSPRINTF.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 0</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\STRUTIL.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 153</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\VSAPRINT.C</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\VPRINTF.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\VFPRINTF.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\VFSCANF.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 241 109</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\PRINTF.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 258</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\PUTPAD.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 259</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63 158</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\SETBUF.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 219</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 62 60 56 90 129 63</file>
+                </tool>
+            </inputs>
         </file>
         <forcedrebuild>
             <name>[MULTI_TOOL]</name>

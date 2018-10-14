@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\EXTI.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\..\Temperature_Sensor\EWARM\temperature.ewp</path>
+    </project>
     <batchBuild />
 </workspace>
