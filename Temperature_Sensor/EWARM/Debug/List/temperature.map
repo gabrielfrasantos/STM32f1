@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.30.1.114/W32 for ARM                  25/Oct/2018  20:50:37
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  26/Oct/2018  10:49:25
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Temperature_Sensor\EWARM\Debug\List\temperature.map
 #    Command line =  
-#        -f C:\Users\ALEXAN~1\AppData\Local\Temp\EWF1CB.tmp
+#        -f C:\Users\ALEXAN~1\AppData\Local\Temp\EWDF50.tmp
 #        (C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Temperature_Sensor\EWARM\Debug\Obj\core_cm3.o
 #        C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Temperature_Sensor\EWARM\Debug\Obj\main.o
 #        C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Temperature_Sensor\EWARM\Debug\Obj\misc.o
@@ -64,22 +64,23 @@ define block HEAP with size = 2K, alignment = 8 { };
   .intvec          ro code   0x800'0000  0x150  startup_stm32f10x_cl.o [1]
                            - 0x800'0150  0x150
 
-"P1":                                    0x62c
+"P1":                                    0x628
   .text            ro code   0x800'0150  0x18c  stm32f10x_adc.o [1]
   .text            ro code   0x800'02dc  0x100  system_stm32f10x.o [1]
   .text            ro code   0x800'03dc   0xc0  stm32f10x_gpio.o [1]
-  .text            ro code   0x800'049c   0xbc  main.o [1]
-  .text            ro code   0x800'0558   0x34  stm32f10x_rcc.o [1]
-  .text            ro code   0x800'058c   0x3a  zero_init3.o [3]
-  .text            ro code   0x800'05c8   0x28  data_init.o [3]
-  .iar.init_table  const     0x800'05f0   0x10  - Linker created -
-  .text            ro code   0x800'0600   0x1e  cmain.o [3]
-  .text            ro code   0x800'061e    0x4  low_level_init.o [2]
-  .text            ro code   0x800'0622    0x4  exit.o [2]
-  .text            ro code   0x800'0628    0xa  cexit.o [3]
-  .text            ro code   0x800'0634   0x14  exit.o [4]
-  .text            ro code   0x800'0648   0x10  startup_stm32f10x_cl.o [1]
-  .text            ro code   0x800'0658    0xc  cstartup_M.o [3]
+  .text            ro code   0x800'049c   0xb8  main.o [1]
+  .text            ro code   0x800'0554   0x34  stm32f10x_rcc.o [1]
+  .text            ro code   0x800'0588   0x3a  zero_init3.o [3]
+  .text            ro code   0x800'05c4   0x28  data_init.o [3]
+  .iar.init_table  const     0x800'05ec   0x10  - Linker created -
+  .text            ro code   0x800'05fc   0x1e  cmain.o [3]
+  .text            ro code   0x800'061a    0x4  low_level_init.o [2]
+  .text            ro code   0x800'061e    0x4  exit.o [2]
+  .text            ro code   0x800'0624    0xa  cexit.o [3]
+  .text            ro code   0x800'0630   0x14  exit.o [4]
+  .text            ro code   0x800'0644   0x10  startup_stm32f10x_cl.o [1]
+  .text            ro code   0x800'0654    0xc  cstartup_M.o [3]
+  .text            ro code   0x800'0660    0x4  startup_stm32f10x_cl.o [1]
   .text            ro code   0x800'0664    0x4  startup_stm32f10x_cl.o [1]
   .text            ro code   0x800'0668    0x4  startup_stm32f10x_cl.o [1]
   .text            ro code   0x800'066c    0x4  startup_stm32f10x_cl.o [1]
@@ -149,9 +150,8 @@ define block HEAP with size = 2K, alignment = 8 { };
   .text            ro code   0x800'076c    0x4  startup_stm32f10x_cl.o [1]
   .text            ro code   0x800'0770    0x4  startup_stm32f10x_cl.o [1]
   .text            ro code   0x800'0774    0x4  startup_stm32f10x_cl.o [1]
-  .text            ro code   0x800'0778    0x4  startup_stm32f10x_cl.o [1]
-  .rodata          const     0x800'077c    0x0  zero_init3.o [3]
-                           - 0x800'077c  0x62c
+  .rodata          const     0x800'0778    0x0  zero_init3.o [3]
+                           - 0x800'0778  0x628
 
 "P2", part 1 of 2:                         0x4
   .bss             zero     0x2000'0000    0x2  main.o [1]
@@ -166,7 +166,7 @@ Unused ranges:
 
          From           To    Size
          ----           --    ----
-   0x800'077c   0x800'ffff  0xf884
+   0x800'0778   0x800'ffff  0xf888
   0x2000'0004  0x2000'0007     0x4
   0x2000'0808  0x2000'4fff  0x47f8
 
@@ -194,14 +194,14 @@ command line/config:
     Total:
 
 C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Temperature_Sensor\EWARM\Debug\Obj: [1]
-    main.o                      188                 2
+    main.o                      184                 2
     startup_stm32f10x_cl.o      632
     stm32f10x_adc.o             396
     stm32f10x_gpio.o            192
     stm32f10x_rcc.o              52
     system_stm32f10x.o          256
     -------------------------------------------------
-    Total:                    1 716                 2
+    Total:                    1 712                 2
 
 dl7M_tln.a: [2]
     exit.o                        4
@@ -226,7 +226,7 @@ shb_l.a: [4]
     Gaps                          6
     Linker created                        16    2 048
 -----------------------------------------------------
-    Grand Total:              1 900       16    2 050
+    Grand Total:              1 896       16    2 050
 
 
 *******************************************************************************
@@ -235,9 +235,9 @@ shb_l.a: [4]
 
 Entry                       Address  Size  Type      Object
 -----                       -------  ----  ----      ------
-.iar.init_table$$Base    0x800'05f0         --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'0600         --   Gb  - Linker created -
-?main                    0x800'0601        Code  Gb  cmain.o [3]
+.iar.init_table$$Base    0x800'05ec         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'05fc         --   Gb  - Linker created -
+?main                    0x800'05fd        Code  Gb  cmain.o [3]
 ADC_Cmd                  0x800'019b  0x1a  Code  Gb  stm32f10x_adc.o [1]
 ADC_GetCalibrationStatus
                          0x800'01db  0x12  Code  Gb  stm32f10x_adc.o [1]
@@ -254,26 +254,26 @@ ADC_StartCalibration     0x800'01d1   0xa  Code  Gb  stm32f10x_adc.o [1]
 CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'0808         --   Gb  - Linker created -
 GPIO_Init                0x800'03dd  0xc0  Code  Gb  stm32f10x_gpio.o [1]
-RCC_ADCCLKConfig         0x800'0559  0x10  Code  Gb  stm32f10x_rcc.o [1]
-RCC_APB2PeriphClockCmd   0x800'0569  0x1c  Code  Gb  stm32f10x_rcc.o [1]
-Region$$Table$$Base      0x800'05f0         --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'0600         --   Gb  - Linker created -
+RCC_ADCCLKConfig         0x800'0555  0x10  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd   0x800'0565  0x1c  Code  Gb  stm32f10x_rcc.o [1]
+Region$$Table$$Base      0x800'05ec         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'05fc         --   Gb  - Linker created -
 SetSysClock              0x800'0327   0x8  Code  Lc  system_stm32f10x.o [1]
 SetSysClockTo24          0x800'032f  0x90  Code  Lc  system_stm32f10x.o [1]
 SystemInit               0x800'02dd  0x4a  Code  Gb  system_stm32f10x.o [1]
-__cmain                  0x800'0601        Code  Gb  cmain.o [3]
-__exit                   0x800'0635  0x14  Code  Gb  exit.o [4]
-__iar_data_init3         0x800'05c9  0x28  Code  Gb  data_init.o [3]
-__iar_program_start      0x800'0659        Code  Gb  cstartup_M.o [3]
-__iar_zero_init3         0x800'058d  0x3a  Code  Gb  zero_init3.o [3]
-__low_level_init         0x800'061f   0x4  Code  Gb  low_level_init.o [2]
+__cmain                  0x800'05fd        Code  Gb  cmain.o [3]
+__exit                   0x800'0631  0x14  Code  Gb  exit.o [4]
+__iar_data_init3         0x800'05c5  0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'0655        Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'0589  0x3a  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'061b   0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000        Data  Gb  startup_stm32f10x_cl.o [1]
-_call_main               0x800'060d        Code  Gb  cmain.o [3]
-_exit                    0x800'0629        Code  Gb  cexit.o [3]
-_main                    0x800'061b        Code  Gb  cmain.o [3]
+_call_main               0x800'0609        Code  Gb  cmain.o [3]
+_exit                    0x800'0625        Code  Gb  cexit.o [3]
+_main                    0x800'0617        Code  Gb  cmain.o [3]
 adc_value               0x2000'0000   0x2  Data  Gb  main.o [1]
-exit                     0x800'0623   0x4  Code  Gb  exit.o [2]
-main                     0x800'049d  0xbc  Code  Gb  main.o [1]
+exit                     0x800'061f   0x4  Code  Gb  exit.o [2]
+main                     0x800'049d  0xb8  Code  Gb  main.o [1]
 
 
 [1] = C:\Users\Alexandre\Documents\Git_Embedded\STM32f1\Temperature_Sensor\EWARM\Debug\Obj
@@ -281,7 +281,7 @@ main                     0x800'049d  0xbc  Code  Gb  main.o [1]
 [3] = rt7M_tl.a
 [4] = shb_l.a
 
-  1 900 bytes of readonly  code memory
+  1 896 bytes of readonly  code memory
      16 bytes of readonly  data memory
   2 050 bytes of readwrite data memory
 
