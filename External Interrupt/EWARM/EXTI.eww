@@ -6,5 +6,8 @@
     <project>
         <path>$WS_DIR$\..\..\Temperature_Sensor\EWARM\temperature.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\..\USART\EWARM\USART.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

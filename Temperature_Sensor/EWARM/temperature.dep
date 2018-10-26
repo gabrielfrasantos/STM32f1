@@ -269,6 +269,7 @@
             <file>$PROJ_DIR$\Debug\Obj\SCANF.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\SCANFILE.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\SETBUF.pbi</file>
+            <file>$PROJ_DIR$\..\..\USART\EWARM\main.c</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\..\CMSIS\core_cm3.c</name>
@@ -392,7 +393,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 125 68</file>
+                    <file> 68 125</file>
                 </tool>
             </outputs>
         </file>

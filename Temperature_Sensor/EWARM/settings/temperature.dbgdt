@@ -874,7 +874,7 @@
             <IarPane-34098>
                 <expressions>
                     <item>adc_value</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>
