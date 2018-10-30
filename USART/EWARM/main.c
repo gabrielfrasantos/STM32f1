@@ -132,6 +132,7 @@ void USARTSend(char *pucBuffer)
 {
   while(USART_GetFlagStatus(USART1, USART_FLAG_TC) == 0)
   {
+// Aqui tem dar um wait busy, tipo assim: while(USART_GetFlagStatus(USART1, USART_FLAG_BUSY){}
     USART_SendData(USART1, *pucBuffer);
     pucBuffer++;
   }
